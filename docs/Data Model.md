@@ -10,7 +10,7 @@ In order to ensure consistent behaviour in a facility employing this identity, s
 
 The IS-04 hierarchy is preserved. Additionally, Senders managed with IS-11 SHOULD be associated with 1 or more Input resources and Receivers managed with IS-11 SHOULD be associated with 1 or more Output resources.
 
-Inputs/Outputs carrying multiple media formats at a time (e.g. video and audio) MAY be associated with multiple Senders/Receivers of given formats.
+Inputs/Outputs MAY be associated with multiple Senders/Receivers, E.g. An Input carrying multiple media formats at a time (e.g. video and audio) MAY be associated with multiple Senders of varying formats, an Input carrying a given media format that is segmented into multiple parts MAY be associated with multiple Senders of the same formats.
 
 ## Input Representation
 
