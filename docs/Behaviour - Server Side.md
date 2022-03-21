@@ -29,7 +29,7 @@ A Receiver managed with IS-11 has the following states:
 
 At any time if State of an active Sender becomes `active_constraints_violation`, the Sender MUST become inactive. An inactive Sender in this state MUST NOT allow activations.
 
-At any time if State of an active Receiver becomes `non_compliant_flow`, the Receiver SHOULD become inactive. An inactive Receiver in this state SHOULD NOT allow activations.
+At any time if State of an active Receiver becomes `non_compliant_stream`, the Receiver SHOULD become inactive. An inactive Receiver in this state SHOULD NOT allow activations.
 
 ## Signal altering indication
 
