@@ -28,7 +28,7 @@
             ]
           },
           {
-            "pattern": "^urn:x-nmos:cap:"
+            "pattern": "^urn:(x-nmos|x-[a-z]+):cap:"
           }
         ]
       },
